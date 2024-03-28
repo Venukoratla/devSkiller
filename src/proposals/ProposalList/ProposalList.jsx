@@ -8,7 +8,8 @@ import "./ProposalList.css";
 
 const ProposalList = () => {
     useEffect(() => {
-const data = 
+getTalks()
+
     }, [])
    
     return (
