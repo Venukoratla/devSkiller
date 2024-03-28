@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import ProposalRow from "../ProposalRow";
-inport ProposalList
+import 
 
 import "./ProposalList.css";
 
