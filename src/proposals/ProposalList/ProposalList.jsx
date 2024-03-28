@@ -2,21 +2,11 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import ProposalRow from "../ProposalRow";
-import { setupFakeHTTP } from "../../api/fakeHttpApi";
+inport ProposalList
 
 import "./ProposalList.css";
 
 const ProposalList = () => {
-
-    const getData = async () => {
-        const data =  setupFakeHTTP()
-        console.log(data)
-    }
-
-    useEffect(() => {
-        getData()
-    }, [])
-
     return (
         <ul data-testid="proposal-list" className="ProposalList">
             {[].map((proposal) => (
