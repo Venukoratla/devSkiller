@@ -2,10 +2,14 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import ProposalRow from "../ProposalRow";
+import { getTalks } from "../../api/httpApi";
 
 import "./ProposalList.css";
 
 const ProposalList = () => {
+    useEffect(() => {
+const data = 
+    }, [])
    
     return (
         <ul data-testid="proposal-list" className="ProposalList">
