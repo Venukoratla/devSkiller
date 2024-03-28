@@ -14,8 +14,8 @@ const ProposalList = () => {
     }
 
     useEffect(() => {
-        getData
-    })
+        getData()
+    }, [])
 
     return (
         <ul data-testid="proposal-list" className="ProposalList">
