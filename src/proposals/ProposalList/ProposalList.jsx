@@ -7,6 +7,12 @@ import { getTalks } from "../../api/httpApi";
 import "./ProposalList.css";
 
 const ProposalList = () => {
+
+
+const getData =  async() => {
+const data =await 
+}
+    
     useEffect(() => {
 getTalks()
 
