@@ -6,6 +6,7 @@ import { getCallForPapers } from "../../api/httpApi";
 
 import "./ProposalList.css";
 
+console.log("hello")
 const ProposalList = () => {
 
     const getData = async () => {
