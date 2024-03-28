@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import ProposalRow from "../ProposalRow";
-import {mockConferenceTalkProposal } from "../../api/mocks";
+
 import "./ProposalList.css";
 
 const ProposalList = () => {
-    console.log(mockConferenceTalkProposal)
+   
     return (
         <ul data-testid="proposal-list" className="ProposalList">
             {[].map((proposal) => (
