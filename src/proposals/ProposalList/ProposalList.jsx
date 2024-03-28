@@ -9,7 +9,7 @@ import "./ProposalList.css";
 const ProposalList = () => {
 
     const getData = async () => {
-        const data = await setupFakeHTTP()
+        const data =  setupFakeHTTP()
         console.log(data)
     }
 
