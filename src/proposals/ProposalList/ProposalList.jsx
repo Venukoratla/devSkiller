@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import ProposalRow from "../ProposalRow";
-import 
+import { setupFakeHTTP } from "../../api/fakeHttpApi";
 
 import "./ProposalList.css";
 
 const ProposalList = () => {
 
     const getData = async () => {
-
+const data = await setupFakeHTTP()
     }
 
     
