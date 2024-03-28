@@ -5,7 +5,8 @@ import ProposalRow from "../ProposalRow";
 
 import "./ProposalList.css";
 
-const ProposalList = () => (
+const ProposalList = () => {
+    return (
     <ul data-testid="proposal-list" className="ProposalList">
         {[].map((proposal) => (
             <li
@@ -25,6 +26,6 @@ const ProposalList = () => (
             </li>
         ))}
     </ul>
-);
+)};
 
 export default ProposalList;
