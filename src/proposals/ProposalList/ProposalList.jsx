@@ -9,15 +9,16 @@ import "./ProposalList.css";
 const ProposalList = () => {
 
 
-const getData =  async() => {
-const data =await 
-}
-    
+    const getData = async () => {
+        const data = await getTalks()
+        console.log(data)
+    }
+
     useEffect(() => {
-getTalks()
+        getData()
 
     }, [])
-   
+
     return (
         <ul data-testid="proposal-list" className="ProposalList">
             {[].map((proposal) => (
