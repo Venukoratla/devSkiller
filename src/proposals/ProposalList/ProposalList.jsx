@@ -6,6 +6,12 @@ import ProposalRow from "../ProposalRow";
 import "./ProposalList.css";
 
 const ProposalList = () => {
+
+    const getData = async () => {
+
+    }
+
+    
     return (
     <ul data-testid="proposal-list" className="ProposalList">
         {[].map((proposal) => (
