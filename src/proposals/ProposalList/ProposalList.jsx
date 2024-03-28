@@ -7,7 +7,7 @@ import { getCallForPapers } from "../../api/httpApi";
 import "./ProposalList.css";
 
 const ProposalList = () => {
-
+    https://github.com/Venukoratla/devSkiller.git
 
     const getData = async () => {
         const data = await getCallForPapers()
