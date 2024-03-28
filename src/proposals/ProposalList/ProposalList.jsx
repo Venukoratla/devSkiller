@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import ProposalRow from "../ProposalRow";
+import 
 
 import "./ProposalList.css";
 
